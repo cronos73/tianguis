@@ -83,6 +83,10 @@
             text-align: center;
             line-height: 16px;
         }
+
+        .navbar-toggler-icon {
+  background-color: red;
+}
     </style>
 </head>
 
@@ -93,7 +97,7 @@
         <a class="navbar-brand" href="#">tianguis-V</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon " ></span>
         </button>
 
         <?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) { ?>

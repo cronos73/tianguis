@@ -42,7 +42,7 @@ class Login extends BaseController {
                         'user' => $user["email"],
                         'loggin' => true
                     ]);
-                    print($user["nombre"]);
+                    return redirect()->to(base_url().'inicio');
                 } else {
                     $data['error'] = 'Nombre de usuario o contraseña inválidos.';
                     $this->logout();

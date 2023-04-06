@@ -50,14 +50,23 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Recordarme</label>
               </div>
-              <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
+              <!-- <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button> -->
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+              </div>              
+              <div class="form-group">
+                <div class="center"  style="text-align: center;">
+                  <p style="color:red"><?php echo $error; ?></p>
+                  <!-- <div class="alert alert-danger" role="alert" style="display: display;" id="error-message"> -->
+                </div>
+              </div>
             </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <?php echo $error; ?>
+  
   
   <!-- Incluir Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
