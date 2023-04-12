@@ -1,0 +1,163 @@
+CRITICAL - 2023-04-11 20:55:36 --> Array to string conversion
+in APPPATH\Controllers\Login.php on line 39.
+ 1 APPPATH\Controllers\Login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tianguis\\app\\Controllers\\Login.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->Accesar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 21:01:35 --> Undefined global variable $_SESSION
+in APPPATH\Views\header_view.php on line 177.
+ 1 APPPATH\Views\header_view.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Controllers\Inicio.php(17): view('header_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 21:01:54 --> Undefined global variable $_SESSION
+in APPPATH\Views\header_view.php on line 177.
+ 1 APPPATH\Views\header_view.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Controllers\Inicio.php(17): view('header_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 21:03:06 --> Undefined global variable $_SESSION
+in APPPATH\Views\header_view.php on line 177.
+ 1 APPPATH\Views\header_view.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Controllers\Inicio.php(17): view('header_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 21:03:34 --> Undefined variable $error
+in APPPATH\Views\header_view.php on line 178.
+ 1 APPPATH\Views\header_view.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php', 178)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Controllers\Inicio.php(17): view('header_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 21:06:03 --> Undefined global variable $_SESSION
+in APPPATH\Views\header_view.php on line 177.
+ 1 APPPATH\Views\header_view.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php', 177)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Controllers\Inicio.php(17): view('header_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 21:12:16 --> Undefined variable $error
+in APPPATH\Views\header_view.php on line 158.
+ 1 APPPATH\Views\header_view.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php', 158)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Controllers\Inicio.php(17): view('header_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 21:12:52 --> Undefined global variable $_SESSION
+in APPPATH\Views\header_view.php on line 158.
+ 1 APPPATH\Views\header_view.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php', 158)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\header_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 5 APPPATH\Controllers\Inicio.php(17): view('header_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 21:29:22 --> Call to undefined method App\Controllers\Login::logout()
+in APPPATH\Controllers\Login.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->Salir()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 22:14:22 --> Undefined variable $error
+in APPPATH\Views\login_body_view.php on line 23.
+ 1 APPPATH\Views\login_body_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\login_body_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\login_body_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login_body_view', [], true)
+ 5 APPPATH\Controllers\Login.php(15): view('login_body_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 22:16:32 --> Undefined variable $error
+in APPPATH\Views\login_body_view.php on line 23.
+ 1 APPPATH\Views\login_body_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\login_body_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\login_body_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login_body_view', [], true)
+ 5 APPPATH\Controllers\Login.php(15): view('login_body_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 22:17:32 --> Undefined variable $error
+in APPPATH\Views\login_body_view.php on line 23.
+ 1 APPPATH\Views\login_body_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\login_body_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\login_body_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login_body_view', [], true)
+ 5 APPPATH\Controllers\Login.php(15): view('login_body_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 22:22:17 --> Undefined variable $error
+in APPPATH\Views\login_body_view.php on line 23.
+ 1 APPPATH\Views\login_body_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\login_body_view.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\login_body_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login_body_view', [], true)
+ 5 APPPATH\Controllers\Login.php(16): view('login_body_view', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 23:26:47 --> Unclosed '{' on line 149
+in APPPATH\Views\header_view.php on line 181.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('header_view', [], true)
+ 3 APPPATH\Controllers\Inicio.php(13): view('header_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 23:58:43 --> Undefined variable $titulo
+in APPPATH\Views\inicio_view.php on line 5.
+ 1 APPPATH\Views\inicio_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\tianguis\\app\\Views\\inicio_view.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\tianguis\\app\\Views\\inicio_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('inicio_view', [], true)
+ 5 APPPATH\Controllers\Configuraciones.php(14): view('inicio_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Configuraciones->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuraciones))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 23:59:03 --> Unmatched '}'
+in APPPATH\Controllers\Configuraciones.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tianguis\\app\\Controllers\\Configuraciones.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Configuraciones')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Configuraciones')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Configuraciones', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

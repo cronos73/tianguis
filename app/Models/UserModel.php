@@ -7,7 +7,7 @@ class UserModel extends Model {
     protected $table      = 'tbl_usuarios';
     protected $primaryKey = 'id';
 
-    protected $allowedFields = ['email', 'password','nombre','registro','Activo'];
+    protected $allowedFields = ['email', 'password','nombre','registro','Activo','esAdmin'];
 
     public function getUser($username, $password)
     {

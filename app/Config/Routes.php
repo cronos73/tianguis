@@ -31,9 +31,40 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+//Administradores
+$routes->get('admin', 'admin::index');
+$routes->get('productos', 'Productos::index');
+$routes->get('entregas', 'Entregas::index');
+$routes->get('usuarios', 'Usuarios::index');
+$routes->get('mensajes', 'Mensajes::index');
+$routes->get('configuraciones', 'Configuraciones::index');
+
+
+//Ventas en linea
 $routes->get('inicio', 'Inicio::index');
-$routes->get('login_form', 'Login::index');
-$routes->post('login', 'Login::Accesar');
+$routes->get('acceso', 'Login::index');
+
+//Comunes
+$routes->post('login', 'Login::login');
+$routes->get('logout', 'Login::logout');
+
+
+//$routes->get('login', 'Login::index');
+//$routes->post('accesar', 'Login::SolicitarAccesoPos');
+//$routes->get('salir', 'Login::SalirDePos');
+//backend
+
+// $routes->get('loginadmin', 'Login::admin');
+// $routes->post('accesar_admin', 'Login::SolicitarAccesoAdmin');
+
+// $routes->get('productos', 'Productos::index');
+// $routes->get('usuarios', 'Usuarios::index');
+// $routes->get('entregas', 'Entregas::index');
+// $routes->get('configuraciones', 'Configuraciones::index');
+
+
+//$routes->post('login', 'Login::SoliictarAccesoPos');
+//$routes->get('logout', 'Login::SolicitarSalirDePos');
 //$routes->get('login', 'Login::index');
 //$routes->post('loginvalidar', 'Login::login');
 

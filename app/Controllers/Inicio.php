@@ -6,17 +6,16 @@ class Inicio extends BaseController
 {
     public function index()
     {
-        //return view('inicio_view');
+        $data = [];
+        $session = session();
+        //Si el usuario no esta logueado se abrira el login para accesar
+        $data['inicio'] = "inicio";
+        $data['origen'] = "ventas";
 
-       //$this->setUserSession();
-       //$this->logout();
-
-
-        //$data['logged_in'] = $session->get('logged_in');
-
-        echo view('header_view');
+        $session = session();
+        echo view('Plantillas/header_view',$data);
         echo view('inicio_view');
-        echo view('footer_view');
+        echo view('Plantillas/footer_view');
     }
 
 }

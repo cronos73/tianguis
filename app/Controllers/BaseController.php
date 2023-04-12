@@ -57,25 +57,5 @@ abstract class BaseController extends Controller
     }
 
     //private function setUserSession($user)
-    public function setUserSession()
-    {
-        $session = session();
-        $data = [
-            'id' => 1,//$user['id'],
-            'username' => "joseluis.chavez1973@gmail.com",//$user['username'],
-            'logged_in' => true
-        ];
-
-        
-        session()->set($data);
-        return true;
-    }
-
-    public function logout()
-    {
-        //$session = \Config\Services::session();
-        $session = session();
-        session()->destroy();
-    }
 
 }

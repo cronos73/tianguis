@@ -27,17 +27,17 @@
 
 
             //   Carrito
-            const cartIcon = document.querySelector('.cart-icon');
-            const itemCount = cartIcon.querySelector('.item-count');
+            //const cartIcon = document.querySelector('.cart-icon');
+            //const itemCount = cartIcon.querySelector('.item-count');
 
             // Ejemplo de cómo actualizar el conteo de elementos en el carrito:
-            let count = 0;
-            itemCount.textContent = count.toString();
+            // let count = 0;
+            // itemCount.textContent = count.toString();
 
-            function addToCart() {
-                count++;
-                itemCount.textContent = count.toString();
-            }
+            // function addToCart() {
+            //     count++;
+            //     itemCount.textContent = count.toString();
+            // }
         </script>
 
     </body>
